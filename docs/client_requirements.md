@@ -1,11 +1,17 @@
 ## 1. Client Profile
 
 **Client ID:** CLI-110
+-
 **Organization**: Tlhabane Materials Testing Laboratory
+-
 **Location**: Rustenburg
+-
 **Industry:** Research
+-
 **Addressing Block:** `192.268.49.0/24`
+-
 **Difficulty Classification:** Foundational
+-
 
 ## 2. Organizational Context & Business Needs
 
@@ -43,8 +49,7 @@ The proposed network must:
 
 ## 5. Change Request — CR2
 
-- The client has taken over an additional floor and requires network coverage there. The design response is a dedicated
-- switch (Switch2-F2) and access point (AP-F2) on that floor, on its own VLAN and subnet, rather than extending Floor 1's existing hardware.
+- The client has taken over an additional floor and requires network coverage there. The design response is a dedicated switch (Switch2-F2) and access point (AP-F2) on that floor, on its own VLAN and subnet, rather than extending Floor 1's existing hardware.
 
 ## 6. Future Expansion Requirement
 
