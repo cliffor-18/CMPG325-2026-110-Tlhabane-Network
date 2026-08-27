@@ -1,17 +1,16 @@
 ## 1. Client Profile
 
 **Client ID:** CLI-110
--
+
 **Organization**: Tlhabane Materials Testing Laboratory
--
+
 **Location**: Rustenburg
--
+
 **Industry:** Research
--
+
 **Addressing Block:** `192.268.49.0/24`
--
+
 **Difficulty Classification:** Foundational
--
 
 ## 2. Organizational Context & Business Needs
 
@@ -21,8 +20,10 @@ Its operations involve:
 
 **Data-intensive testing procedures** 
 - Test results and reports must be captured, stored, and shared reliably between staff.
+  
 **Collaborative research** 
 - Technicians and researchers work across shared projects and need consistent access to network resources regardless of which room or floor they are working from.
+
 **Mobile work patterns** 
 - Staff move between testing stations, offices, and meeting areas, requiring flexible connectivity rather than being tied to a single wired desk.
 
@@ -36,10 +37,15 @@ Its operations involve:
 
 The proposed network must:
 3.1. Provide connectivity and network services appropriate to the client scenario
+
 3.2. Include an appropriate network topology and device arrangement built from `192.168.49.0/24`
-3.3. Configure the necessary **routers, switches, end devices, Wireless Access Points, and other required nodes**.
+
+3.3. Configure the necessary routers, switches, end devices, Wireless Access Points, and other required nodes.
+
 3.4. Provide successful data exchange between the appropriate network nodes.
-3.5. Provide a functional Wireless LAN, integrated into the network, with coverage extended to the additional floor/area specified in CR2
+
+3.5. Provide a functional Wireless LAN, integrated into the network, with coverage extended to the additional floor specified in CR2
+
 3.6. Support future branch-office expansion within 18 months via the addressing plan.
 
 ## 4. Networking Challenge
