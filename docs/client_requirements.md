@@ -14,7 +14,7 @@ analysis of materials for industrial, construction, and manufacturing clients.
 Its operations involve:
 
 **Data-intensive testing procedures** 
-  Test results and reports must be captured, stored, and shared reliably between staff.
+- Test results and reports must be captured, stored, and shared reliably between staff.
 **Collaborative research** 
   Technicians and researchers work across shared projects and need consistent access to network resources regardless of       which room or floor they are working from.
 **Mobile work patterns** 
