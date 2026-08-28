@@ -15,7 +15,7 @@ This section contains the foundational design documentation, topologies, and IP 
 ### Deliverables
 * [1. Client Requirements](docs/client_requirements.md)
 * [2. Physical Topology](diagrams/physical_topology.png)
-* [3. Logical Topology](diagrams/logical_topology.png)
+* [3. Logical Topology](diagrams/logical_topology.png) / [downloadable packet](packet-tracer/logical_topology.pkt)
 * [4. IP Addressing Plan ](docs/ip_addressing_plan.md)
 
 To be continued👋....
