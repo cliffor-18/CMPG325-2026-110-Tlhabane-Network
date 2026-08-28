@@ -8,7 +8,7 @@
 
 **Industry:** Research
 
-**Addressing Block:** `192.268.49.0/24`
+**Addressing Block:** `192.168.49.0/24`
 
 **Difficulty Classification:** Foundational
 
