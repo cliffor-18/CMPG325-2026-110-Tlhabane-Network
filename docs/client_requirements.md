@@ -53,7 +53,7 @@ The proposed network must:
  **Wireless LAN (AP integration and coverage)**
 - The solution must configure, verify, and demonstrate the Wireless LAN within the client's network and be able to explain what was configured, why it was appropriate, and how it was verified.
 
-## 5. Change Request — CR2
+## 5. Change Request ( CR2)
 
 - The client has taken over an additional floor and requires network coverage there. The design response is a dedicated switch (Switch2-F2) and access point (AP-F2) on that floor, on its own VLAN and subnet, rather than extending Floor 1's existing hardware.
 
