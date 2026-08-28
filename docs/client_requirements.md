@@ -36,6 +36,7 @@ Its operations involve:
 ## 3. Network Requirements
 
 The proposed network must:
+
 3.1. Provide connectivity and network services appropriate to the client scenario
 
 3.2. Include an appropriate network topology and device arrangement built from `192.168.49.0/24`
