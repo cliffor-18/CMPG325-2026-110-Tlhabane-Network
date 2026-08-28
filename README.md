@@ -6,6 +6,6 @@ This repository contains the foundational design documentation and addressing pl
 
 ### Deliverables
 * [1. Client Requirements](docs/client_requirements.md)
-* [2. Physical Topology]()
-* [3. Logical Topology]()
+* [2. Physical Topology](diagrams/physical_topology.png)
+* [3. Logical Topology](diagrams/logical_topology.png)
 * [4. IP Addressing Plan ](docs/ip_addressing_plan.md)
