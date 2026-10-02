@@ -1,0 +1,37 @@
+
+// Base configuration and Physical interface
+enable
+configure terminal
+hostname Main_Router
+
+interface GigabitEthernet0/0/0
+no ip address
+no shutdown
+exit
+
+// Router-on-a-Stick Sub-interfaces
+
+interface GigabitEthernet0/0/0.10
+ip address 192.168.49.1 255.255.255.240
+no shutdown
+exit
+interface GigabitEthernet0/0/0.20
+ip address 192.168.49.17 255.255.255.240
+no shutdown
+exit
+
+interface GigabitEthernet0/0/0.30
+ip address 192.168.49.33 255.255.255.224
+no shutdown
+exit
+
+// DHCP Server Configuration
+
+ip dhcp excluded-address 192.168.49.33
+ip dhcp pool WIRELESS_STAFF_POOL
+network 192.168.49.33 255.255.255.224
+default-router 192.168.49.33
+dns-server 192.168.49.1
+exit
+
+do write memory
