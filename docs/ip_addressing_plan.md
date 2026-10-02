@@ -3,10 +3,11 @@
 - The remaining space is subnetted by functional role (Management, Wired Research, Wireless Staff) rather than physical location. This provides security isolation between mobile clients and data-intensive research equipment across all floors.
 
 ## 4.2. Subnet Allocation Table & Static Device IP Assignments
-- [Click here to view both IP Adress Tables DOCX Version 1](https://github.com/cliffor-18/CMPG325-2026-110-Tlhabane-Network/blob/MOHAU/docs/IP%20Address%20Tables.docx)
-- [Click here to view both IP Adress Tables DOCX Version 2](https://github.com/cliffor-18/CMPG325-2026-110-Tlhabane-Network/blob/1bead24f04967924899c735189f316cc05bf575c/docs/IP%20Address%20Tables%20Version%202.docx)
+- [Click here to view both IP Adress Tables DOCX](https://github.com/cliffor-18/CMPG325-2026-110-Tlhabane-Network/blob/MOHAU/docs/IP%20Address%20Tables.docx)
+- [Click here to view both IP Adress Tables DOCX updated Version](https://github.com/cliffor-18/CMPG325-2026-110-Tlhabane-Network/blob/1bead24f04967924899c735189f316cc05bf575c/docs/IP%20Address%20Tables%20Version%202.docx)
 - [Click here to view the Static device IP Table IMAGE](https://github.com/cliffor-18/CMPG325-2026-110-Tlhabane-Network/blob/MOHAU/Images/Static%20Device%20IP%20Assignments%20table.png)
 - [Click here to view the subnet Allocation Table IMAGE](https://github.com/cliffor-18/CMPG325-2026-110-Tlhabane-Network/blob/MOHAU/Images/Subent_Allocation_Table.png)
+- [Click here to view the subnet Allocation Table IMAGE Updated Version ](https://github.com/cliffor-18/CMPG325-2026-110-Tlhabane-Network/blob/135a22b5430cc18e6870bf0981010f8274454302/Images/Subent_Allocation_Table%20Corrected%20Version.png)
 
 ## 4.4 DHCP Pool Configuration (Wireless Clients)
 - **Pool Name:** `WLAN_POOL`
