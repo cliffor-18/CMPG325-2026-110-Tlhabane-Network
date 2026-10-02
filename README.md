@@ -17,7 +17,7 @@ This section contains the foundational design documentation, topologies, and IP 
 * [2. Physical Topology](diagrams/physical_topology.png)
 * [3. Logical Topology](diagrams/logical_topology.png) / [downloadable packet](packet-tracer/logical_topology.pkt)
 * [4. IP Addressing Plan ](docs/ip_addressing_plan.md)
-* [4.1 IP Addressing Plan](docs/IP Address Tables Version 2.docx)
+
 
 ## Milestone 2 
 This section contains an active working packet tracer,implemented features and configurations backed by testing evidence.
