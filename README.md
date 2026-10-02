@@ -23,5 +23,7 @@ This section contains an active working packet tracer and testing evidence.
 
 
 ### Deliverables
-* [1. Working Packet Tracer](packet-tracer/logical_topology_pt2.pkt)
+* [Working Packet Tracer](packet-tracer/logical_topology_pt2.pkt)
+* [Ping tests](tests/ping_test)
+  
 
