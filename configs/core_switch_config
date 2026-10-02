@@ -1,0 +1,37 @@
+! Base configuration
+enable
+configure terminal
+hostname Core-Switch
+
+! VLAN Creation 
+vlan 10
+name Management
+vlan 20
+name Wired_Research
+vlan 30
+name Wireless_Staff
+exit
+
+! Uplink to Main-Router
+interface FastEthernet0/3
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+no shutdown
+exit
+
+! Downlinks to Floor Switches
+interface range FastEthernet0/1
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+no shutdown
+exit
+
+! Management IP and Gateway
+
+interface vlan 10
+ip address 192.168.49.2 255.255.255.240
+no shutdown
+exit
+
+ip default-gateway 192.168.49.1
+do write memory
