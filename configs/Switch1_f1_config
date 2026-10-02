@@ -1,0 +1,44 @@
+
+enable
+configure terminal
+hostname Switch1-F1
+
+! VLAN Creation
+vlan 10
+name Management
+vlan 20
+name Wired_Research
+vlan 30
+name Wireless_Staff
+exit
+
+! Uplink to Core Switch as Trunk
+interface FastEthernet0/1
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+no shutdown
+exit
+
+! PC1 Access Port
+interface FastEthernet0/2
+switchport mode access
+switchport access vlan 20
+no shutdown
+exit
+
+! AP-F1 Access Port
+interface FastEthernet0/3
+switchport mode access
+switchport access vlan 30
+no shutdown
+exit
+
+! Management IP and Gateway
+
+interface vlan 10
+ip address 192.168.49.3 255.255.255.240
+no shutdown
+exit
+
+ip default-gateway 192.168.49.1
+do write memory
