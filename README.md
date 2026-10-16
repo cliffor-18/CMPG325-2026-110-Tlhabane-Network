@@ -1,6 +1,6 @@
 # CMPG325 - Network Design Portfolio
 **Client:** CLI-110 (Tlhabane Materials Testing Laboratory)
-#### [Video Presentation](https://drive.google.com/file/d/1ndQEroGkO0azsDQuTly1AcXy1o8R7MVc/view?usp=drive_link)
+#### [Video Presentation](https://drive.google.com/file/d/1ndQEroGkO0azsDQuTly1AcXy1o8R7MVc/view?usp=sharing)
 ## Project Overview
 This repository contains the network design and Cisco Packet Tracer simulation to address the networking needs of the Tlhabane Materials Testing Laboratory.The completed network permits successful data exchange between appropriate nodes and fulfills the following assigned project parameters
 
